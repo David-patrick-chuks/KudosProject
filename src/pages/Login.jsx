@@ -1,7 +1,7 @@
 
 
 import { useContext, useState } from "react";
-import { GlobalContext } from "../utils/context";
+import { GlobalContext } from "../utils/Context.jsx";
 
 const Login = () => {
     const [email, setEmail] = useState('');

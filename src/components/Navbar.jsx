@@ -101,7 +101,7 @@
 // export default Navbar;
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
-import { GlobalContext } from "../utils/context";
+import { GlobalContext } from "../utils/Context.jsx";
 
 const Navbar = () => {
   const { name } = useContext(GlobalContext);
