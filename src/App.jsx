@@ -5,6 +5,8 @@ import Cars from "./pages/Cars"
 import NotFound from "./pages/NotFound"
 import Navbar from "./components/Navbar"
 import Login from "./pages/Login"
+import Footer from "./components/Footer";
+import Carspage from "./components/Carspage"
 import { ToastContainer } from "react-toastify"
 import { useContext, useEffect } from "react"
 import { GlobalContext } from "./utils/context"
@@ -25,10 +27,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="pricing" element={<Pricing />} />
-        <Route path="cars" element={<Cars />} />
+        <Route path="cars" element={<Carspage />} />
         <Route path="login" element={<Login /> } />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
     </div>
   )

@@ -5,3 +5,8 @@
 .active{
     @apply text-primary font-bold
 }
+  
+
+html {
+  scroll-behavior: smooth;
+}
