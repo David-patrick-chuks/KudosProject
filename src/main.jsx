@@ -6,5 +6,5 @@ import { GlobalProvider } from './utils/context.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GlobalProvider />
-  </StrictMode>,
+  </StrictMode>
 )
