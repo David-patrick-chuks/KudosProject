@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Carspage from "./components/Carspage"
 import { ToastContainer } from "react-toastify"
 import { useContext, useEffect } from "react"
-import { GlobalContext } from "./utils/context"
+import { GlobalContext } from "./utils/Context.jsx"
 
 const App = () => {
   const { loggedInUserChecker } = useContext(GlobalContext);
