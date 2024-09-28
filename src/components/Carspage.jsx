@@ -81,6 +81,8 @@ const Carspage = () => {
 
             <div className="w-full md:w-1/2 p-2 flex flex-col items-start space-y-5">
               <p className="font-bold">PERSONAL CAR COSTS:</p>
+
+              
               <img src="images/400.png" alt="Dummy Image" />
               <p>Calculated based on ownership and use of a 2020 VW Polo</p>
             </div>
