@@ -235,16 +235,16 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {isNavOpen && (
-        <ul className="lg:hidden bg-white font-semibold right-0 w-full  flex flex-col space-y-1 z-50">
+        <ul className="lg:hidden top-5 bg-white font-semibold right-0 w-full  flex flex-col space-y-1 z-50">
           {navItem.map((item) => (
-            <NavLink
+            <Link
               key={item.id}
               onClick={handleClick}
             className=" hover:bg-slate-300/20  p-2 "
               to={item.href}
             >
               {item.name}
-            </NavLink>
+            </Link>
           ))}
         </ul>
       )}
