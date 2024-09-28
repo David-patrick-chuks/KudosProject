@@ -125,7 +125,7 @@ const Navbar = () => {
     {
       id: 2,
       name: "Location",
-      href: "#location",
+      href: "#our-cars",
     },
     {
       id: 3,
