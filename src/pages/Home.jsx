@@ -4,7 +4,7 @@ import Pricing from "../components/Pricing"
 
 const Home = () => {
   return (
-    <div className="px-[160px]">
+    <div className="px-8 md:px-[160px]">
         <Hero />
       <Carspage />
         <Pricing />

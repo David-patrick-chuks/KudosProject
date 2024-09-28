@@ -12,6 +12,7 @@ const Footer = () => {
           href="https://apps.microsoft.com/home?hl=en-us&gl=US"
           target="_blank"
           rel="noopener noreferrer"
+          className='w-full flex md:justify-end justify-center md:mt-0 mt-5'
         >
           <button className='p-2 text-green-950 bg-white rounded-md font-medium'>
             Download the app
@@ -19,7 +20,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-start px-4 md:px-8 py-4 mx-auto max-w-screen-xl">
+      <div className="md:flex flex-col md:flex-row justify-between items-start grid grid-cols-2  px-4 md:px-8 py-4 mx-auto max-w-screen-xl">
         <div className="text-left mb-5">
           <img className="mb-5" src="images/Logo.png" alt="Logo" />
           <div className="text-l font-medium">
@@ -38,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-left mb-5">
+        <div className="text-left md:mb-5">
           <p className="mb-5 font-bold">Extras</p>
           <div className="text-l font-medium">
             <a href="#our-cars" className="block cursor-pointer scroll-smooth">Cost calculator</a>
@@ -48,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-left mb-5">
+        <div className="text-left md:mb-5">
           <p className="mb-5 font-bold">Contact</p>
           <div className="text-l font-medium">
             <p>
@@ -61,8 +62,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex flex-col md:flex-row gap-6 mt-6 mx-auto max-w-screen-xl'>
-        <div className="flex gap-6 mt-6">
+      <div className='flex flex-col md:flex-row gap-6 md:mt-6 justify-center items-center mx-auto w-full-xl'>
+        <div className="flex gap-6 w-full justify-center items-center mt-6">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-square text-3xl text-blue-600"></i>
           </a>
@@ -70,12 +71,12 @@ const Footer = () => {
             <i className="fab fa-instagram text-3xl text-pink-600"></i>
           </a>
         </div>
-        <div className='ml-10 flex gap-5 flex-wrap'>
+        <div className=' justify-center flex gap-5 w-full'>
           <p className='mt-7'>General</p>
           <p className='mt-7'>Privacy policy</p>
         </div>
 
-        <div className="text-right ml-auto mt-9">
+        <div className="text-right flex justify-center items-center w-full ml-auto md:mt-9">
           <p>© 2022 Cago.</p>
         </div>
       </div>

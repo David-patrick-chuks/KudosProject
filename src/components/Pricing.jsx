@@ -11,7 +11,7 @@ const FAQItem = ({ question, answer }) => {
         className="flex justify-between items-center p-4 cursor-pointer bg-gray-100"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h3 className="font-semibold text-xl">{question}</h3>
+        <h3 className="font-semibold text-base w-[90%] md:text-xl">{question}</h3>
         <span className={`transform ${isOpen ? 'rotate-180' : ''}`}>
           ▼ {/* Arrow icon */}
         </span>
@@ -87,8 +87,8 @@ const Pricing = () => {
       </div>
 
       {/* FAQ Section */}
-      <div className="mt-20 mx-auto max-w-3xl p-6">
-        <h2 className="text-3xl font-bold text-center mb-8">FAQ on Pricing</h2>
+      <div className="mt-20 mx-auto md:max-w-3xl md:p-6">
+        <h2 className="md:text-3xl text-2xl font-bold text-center mb-8">FAQ on Pricing</h2>
 
         {/* Initial FAQs */}
         <FAQItem 
@@ -123,7 +123,7 @@ const Pricing = () => {
           <div className="text-center mt-4">
             <button 
               onClick={() => setShowMoreFAQs(true)} 
-              className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600"
+              className="bg-blue-500 mb-5 text-white py-2 px-4 rounded-lg hover:bg-blue-600"
             >
               Read More FAQs
             </button>

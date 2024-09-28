@@ -14,8 +14,8 @@ const PricingCard = ({ tag, sub, sub_price, price, maand_price, tintini }) => {
         <p className="text-white">saves €{maand_price} per hour</p>
       </div>
       <div>
-        <p className="text-[#F4F4F4] text-base font-medium">€5 {tintini} / hours after hours off</p>
-        <p className="text-[#F4F4F4] text-base font-medium">€0,24 / KM</p>
+        <p className="text-[#F4F4F4] text-[15px] md:text-base font-medium">€5 {tintini} / hours after hours off</p>
+        <p className="text-[#F4F4F4] text-[14px] md:text-base font-medium">€0,24 / KM</p>
       </div>
       {tag && (
         <p className="px-4 py-1 bg-red-700 text-white absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl">
