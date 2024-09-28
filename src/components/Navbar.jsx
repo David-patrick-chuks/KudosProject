@@ -105,7 +105,7 @@ import { GlobalContext } from "../utils/Context.jsx";
 
 const Navbar = () => {
   const { name } = useContext(GlobalContext);
-  const [isNavOpen, setIsNavOpen] = useState(true); // Toggle state for mobile navigation
+  const [isNavOpen, setIsNavOpen] = useState(false); // Toggle state for mobile navigation
 
   // Function to toggle the navigation
   const toggleNav = () => {
