@@ -237,14 +237,14 @@ const Navbar = () => {
       {isNavOpen && (
         <ul className="lg:hidden top-5 bg-white font-semibold right-0 w-full  flex flex-col space-y-1 z-50">
           {navItem.map((item) => (
-            <Link
+            <a
               key={item.id}
               onClick={handleClick}
             className=" hover:bg-slate-300/20  p-2 "
-              to={item.href}
+              href={item.href}
             >
               {item.name}
-            </Link>
+            </a>
           ))}
         </ul>
       )}
